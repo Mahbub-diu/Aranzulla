@@ -1,0 +1,67 @@
+@import 'partials/colors';
+@import 'partials/variable';
+@import 'partials/mixins';
+@import 'partials/common';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $arial;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $georgia;
+  }
+}
+
+// home slider part start from here
+
+.homeslider-main {
+  padding: 340px 0;
+  background: $slider-bg;
+  .left-content-box {
+    h1.slider-title {
+      @include commonh1;
+    }
+    p.slider-desc {
+      font-family: $arial;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 60px;
+      color: $white;
+      max-width: 606px;
+    }
+    a.offer-btn {
+      font-size: 16px;
+      font-family: $arial;
+      text-transform: uppercase;
+      line-height: 24px;
+      font-weight: 700;
+      color: $white;
+      background: $amazon;
+      padding: 22px 59px;
+      @include no-radius;
+    }
+  }
+  .slider-image-box {
+    text-align: center;
+  }
+}

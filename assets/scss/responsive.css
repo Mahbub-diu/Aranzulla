@@ -1,0 +1,8 @@
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+  .homeslider-main .container {
+    max-width: 1490px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

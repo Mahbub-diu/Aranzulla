@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "arialregular";
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "georgiaregular";
+}
+
+h2 {
+  font-family: "georgiaregular";
+}
+
+h3 {
+  font-family: "georgiaregular";
+}
+
+h4 {
+  font-family: "georgiaregular";
+}
+
+h5 {
+  font-family: "georgiaregular";
+}
+
+h6 {
+  font-family: "georgiaregular";
+}
+
+.homeslider-main {
+  padding: 340px 0;
+  background: linear-gradient(108.12deg, #222f3e 27.31%, #4895f7 89.31%);
+}
+.homeslider-main .left-content-box h1.slider-title {
+  font-size: 80px;
+  line-height: 100px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "georgiaregular";
+  margin-bottom: 18px;
+}
+.homeslider-main .left-content-box p.slider-desc {
+  font-family: "arialregular";
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  color: #fff;
+  max-width: 606px;
+}
+.homeslider-main .left-content-box a.offer-btn {
+  font-size: 16px;
+  font-family: "arialregular";
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  background: #ed701f;
+  padding: 22px 59px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.homeslider-main .slider-image-box {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

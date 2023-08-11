@@ -1,0 +1,16 @@
+@mixin commonh1 {
+  font-size: 80px;
+  line-height: 100px;
+  font-weight: 400;
+  color: $white;
+  font-family: $georgia;
+  margin-bottom: 18px;
+}
+
+@mixin no-radius {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
