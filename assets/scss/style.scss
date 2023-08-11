@@ -29,39 +29,101 @@ img {
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: $georgia;
+    color: $title-color;
   }
 }
 
 // home slider part start from here
 
 .homeslider-main {
-  padding: 340px 0;
+  //   padding: 340px 0;
+  padding: 309px 0;
   background: $slider-bg;
   .left-content-box {
     h1.slider-title {
       @include commonh1;
     }
     p.slider-desc {
-      font-family: $arial;
-      font-size: 24px;
-      line-height: 32px;
-      margin-bottom: 60px;
-      color: $white;
-      max-width: 606px;
+      @include slider-desc;
     }
     a.offer-btn {
-      font-size: 16px;
-      font-family: $arial;
-      text-transform: uppercase;
-      line-height: 24px;
-      font-weight: 700;
-      color: $white;
-      background: $amazon;
-      padding: 22px 59px;
-      @include no-radius;
+      @include slider-offer-btn;
     }
   }
   .slider-image-box {
     text-align: center;
+  }
+}
+
+// service section start from here
+.service-main {
+  padding: 120px 0 100px 0;
+  .service-header {
+    max-width: 913px;
+    text-align: center;
+
+    margin: 0 auto 60px auto;
+    h2.service-title {
+      @include service-title;
+    }
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      font-family: $arial;
+      text-align: center;
+      color: $des-color;
+      max-width: 530px;
+      margin: 0px auto;
+      a.amazonprime-link {
+        color: $amazon;
+        text-decoration: underline;
+      }
+    }
+  }
+  .card {
+    @include no-radius;
+    border: none;
+    margin-bottom: 20px;
+    img {
+      // max-height: 380px;
+      @include no-radius;
+    }
+    .card-body {
+      background: $gray;
+      padding: 22px 27px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .title-box {
+        h3 {
+          font-family: 'georgiabold';
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          color: $title-color;
+          margin-bottom: 6px;
+        }
+        p {
+          margin: 0;
+          font-family: $arial;
+          font-size: 18px;
+          line-height: 26px;
+          color: $title-color;
+        }
+      }
+      .btn-box {
+        a.offer-btn {
+          background: $amazon;
+          color: $white;
+          text-transform: uppercase;
+          padding: 19px 54px;
+          @include no-radius;
+          font-size: 16px;
+          line-height: 16px;
+          font-family: $arial-med;
+          font-weight: 500;
+        }
+      }
+    }
   }
 }

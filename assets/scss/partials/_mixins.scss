@@ -14,3 +14,33 @@
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+@mixin slider-desc {
+  font-family: $arial;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  color: $white;
+  max-width: 606px;
+}
+
+@mixin slider-offer-btn {
+  font-size: 16px;
+  font-family: $arial-med;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 700;
+  color: $white;
+  background: $amazon;
+  padding: 22px 59px;
+  @include no-radius;
+}
+
+@mixin service-title {
+  font-family: $georgia;
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: $title-color;
+  margin-bottom: 18px;
+  font-weight: 400;
+}

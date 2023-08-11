@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "arialregular";
+  font-family: "Arial Regular";
 }
 
 ul {
@@ -24,30 +24,36 @@ img {
 
 h1 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 h2 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 h3 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 h4 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 h5 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 h6 {
   font-family: "georgiaregular";
+  color: #141414;
 }
 
 .homeslider-main {
-  padding: 340px 0;
+  padding: 309px 0;
   background: linear-gradient(108.12deg, #222f3e 27.31%, #4895f7 89.31%);
 }
 .homeslider-main .left-content-box h1.slider-title {
@@ -59,7 +65,7 @@ h6 {
   margin-bottom: 18px;
 }
 .homeslider-main .left-content-box p.slider-desc {
-  font-family: "arialregular";
+  font-family: "Arial Regular";
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 60px;
@@ -68,7 +74,7 @@ h6 {
 }
 .homeslider-main .left-content-box a.offer-btn {
   font-size: 16px;
-  font-family: "arialregular";
+  font-family: "Arial Medium";
   text-transform: uppercase;
   line-height: 24px;
   font-weight: 700;
@@ -83,4 +89,88 @@ h6 {
 }
 .homeslider-main .slider-image-box {
   text-align: center;
+}
+
+.service-main {
+  padding: 120px 0 100px 0;
+}
+.service-main .service-header {
+  max-width: 913px;
+  text-align: center;
+  margin: 0 auto 60px auto;
+}
+.service-main .service-header h2.service-title {
+  font-family: "georgiaregular";
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: #141414;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+.service-main .service-header p {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Arial Regular";
+  text-align: center;
+  color: #656565;
+  max-width: 530px;
+  margin: 0px auto;
+}
+.service-main .service-header p a.amazonprime-link {
+  color: #ed701f;
+  text-decoration: underline;
+}
+.service-main .card {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+.service-main .card img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.service-main .card .card-body {
+  background: #e9eff0;
+  padding: 22px 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-main .card .card-body .title-box h3 {
+  font-family: "georgiabold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #141414;
+  margin-bottom: 6px;
+}
+.service-main .card .card-body .title-box p {
+  margin: 0;
+  font-family: "Arial Regular";
+  font-size: 18px;
+  line-height: 26px;
+  color: #141414;
+}
+.service-main .card .card-body .btn-box a.offer-btn {
+  background: #ed701f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 19px 54px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Arial Medium";
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
