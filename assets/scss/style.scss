@@ -142,8 +142,126 @@ img {
   }
 }
 
-// amazon prime section start from here 
+// amazon prime section start from here
 
-.amazonprime-main{
+.amazonprime-main {
+  background: $lblack;
+  padding: 120px 0;
 
+  .right-content-box {
+    max-width: 590px;
+    h3.amazon-title {
+      color: $white;
+      font-size: 60px;
+      font-weight: 68px;
+      font-weight: 400;
+      font-family: $georgia;
+      margin-bottom: 18px;
+    }
+    p.amazon-desc {
+      color: #fff;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      font-family: $arial;
+      margin-bottom: 18px;
+      a {
+        color: $amazon;
+        text-decoration: underline;
+      }
+    }
+    .primeday-btn {
+      background: $pest;
+      color: $lblack;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 700;
+      font-family: $arial-b;
+      padding: 22px 54px;
+      @include no-radius;
+    }
+  }
+}
+
+// footer section start from here
+
+.footer-main {
+  background: $amazon;
+  padding: 90px 0 0 0;
+
+  .footer-content-box {
+    text-align: center;
+    .logo-box {
+      margin-bottom: 30px;
+    }
+    p {
+      color: #fff;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 10px;
+
+      a {
+        color: #fff;
+      }
+    }
+    p:nth-child(3) {
+      font-size: 18px;
+      margin: 0;
+    }
+    .social-navs {
+      margin-top: 30px;
+      ul.nav {
+        margin-bottom: 50px;
+        li.nav-item {
+          a.nav-link {
+            color: $white;
+            position: relative;
+            padding-top: 0;
+            padding-bottom: 0;
+            i {
+              font-size: 28px;
+            }
+          }
+        }
+        li.nav-item:not(:last-child) {
+          a.nav-link {
+            &::after {
+              position: absolute;
+              right: 0;
+              top: 50%;
+              width: 1px;
+              height: 70%;
+              background: #fff;
+              content: '';
+              transform: translateY(-50%);
+              opacity: 12%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// copyright section start from here
+
+.copyright-main {
+  background: $amazon;
+  border-top: 1px solid #ffffff4f;
+
+  padding: 25px 0;
+  p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: $arial;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
 }

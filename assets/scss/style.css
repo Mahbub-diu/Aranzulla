@@ -234,4 +234,116 @@ h6 {
 }
 .occasion-main .right-image-box {
   text-align: center;
+}
+
+.amazonprime-main {
+  background: #1f2f3f;
+  padding: 120px 0;
+}
+.amazonprime-main .right-content-box {
+  max-width: 590px;
+}
+.amazonprime-main .right-content-box h3.amazon-title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 68px;
+  font-weight: 400;
+  font-family: "georgiaregular";
+  margin-bottom: 18px;
+}
+.amazonprime-main .right-content-box p.amazon-desc {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Arial Regular";
+  margin-bottom: 18px;
+}
+.amazonprime-main .right-content-box p.amazon-desc a {
+  color: #ed701f;
+  text-decoration: underline;
+}
+.amazonprime-main .right-content-box .primeday-btn {
+  background: #91edc5;
+  color: #1f2f3f;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  font-family: "Arial Bold";
+  padding: 22px 54px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.footer-main {
+  background: #ed701f;
+  padding: 90px 0 0 0;
+}
+.footer-main .footer-content-box {
+  text-align: center;
+}
+.footer-main .footer-content-box .logo-box {
+  margin-bottom: 30px;
+}
+.footer-main .footer-content-box p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-main .footer-content-box p a {
+  color: #fff;
+}
+.footer-main .footer-content-box p:nth-child(3) {
+  font-size: 18px;
+  margin: 0;
+}
+.footer-main .footer-content-box .social-navs {
+  margin-top: 30px;
+}
+.footer-main .footer-content-box .social-navs ul.nav {
+  margin-bottom: 50px;
+}
+.footer-main .footer-content-box .social-navs ul.nav li.nav-item a.nav-link {
+  color: #fff;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.footer-main .footer-content-box .social-navs ul.nav li.nav-item a.nav-link i {
+  font-size: 28px;
+}
+.footer-main .footer-content-box .social-navs ul.nav li.nav-item:not(:last-child) a.nav-link::after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 70%;
+  background: #fff;
+  content: "";
+  transform: translateY(-50%);
+  opacity: 12%;
+}
+
+.copyright-main {
+  background: #ed701f;
+  border-top: 1px solid rgba(255, 255, 255, 0.3098039216);
+  padding: 25px 0;
+}
+.copyright-main p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Arial Regular";
+  color: #fff;
+}
+.copyright-main p a {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
