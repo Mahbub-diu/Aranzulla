@@ -85,7 +85,6 @@ img {
     border: none;
     margin-bottom: 20px;
     img {
-      // max-height: 380px;
       @include no-radius;
     }
     .card-body {
@@ -126,4 +125,21 @@ img {
       }
     }
   }
+  .show-all-offer {
+    margin-top: 60px;
+    text-align: center;
+    a.all-offer-btn {
+      padding: 20px 46px;
+      background: $anotherblack;
+      color: $white;
+      text-transform: uppercase;
+      @include no-radius;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 16px;
+      font-family: $arial;
+    }
+  }
 }
+
+// occasion section start from here

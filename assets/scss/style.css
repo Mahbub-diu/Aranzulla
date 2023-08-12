@@ -173,4 +173,23 @@ h6 {
   line-height: 16px;
   font-family: "Arial Medium";
   font-weight: 500;
+}
+.service-main .show-all-offer {
+  margin-top: 60px;
+  text-align: center;
+}
+.service-main .show-all-offer a.all-offer-btn {
+  padding: 20px 46px;
+  background: #222f3e;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  font-family: "Arial Regular";
 }/*# sourceMappingURL=style.css.map */
