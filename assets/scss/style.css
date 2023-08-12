@@ -80,7 +80,7 @@ h6 {
   font-weight: 700;
   color: #fff;
   background: #ed701f;
-  padding: 22px 59px;
+  padding: 21px 59px;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -179,7 +179,7 @@ h6 {
   text-align: center;
 }
 .service-main .show-all-offer a.all-offer-btn {
-  padding: 20px 46px;
+  padding: 25px 46px;
   background: #222f3e;
   color: #fff;
   text-transform: uppercase;
@@ -192,4 +192,46 @@ h6 {
   font-weight: 700;
   line-height: 16px;
   font-family: "Arial Regular";
+}
+
+.occasion-main {
+  padding: 140px 0 130px 0;
+  background: #91edc5;
+}
+.occasion-main .left-content-box {
+  max-width: 615px;
+}
+.occasion-main .left-content-box h3.occasion-title {
+  font-family: "georgiaregular";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #141414;
+  margin-bottom: 18px;
+}
+.occasion-main .left-content-box p.occasion-desc {
+  font-family: "Arial Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #141414;
+  margin-bottom: 60px;
+}
+.occasion-main .left-content-box a.occasion-btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: #fff;
+  padding: 25px 54px;
+  background: #222f3e;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  font-family: "Arial Regular";
+  text-transform: uppercase;
+}
+.occasion-main .right-image-box {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

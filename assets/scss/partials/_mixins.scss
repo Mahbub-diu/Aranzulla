@@ -31,7 +31,7 @@
   font-weight: 700;
   color: $white;
   background: $amazon;
-  padding: 22px 59px;
+  padding: 21px 59px;
   @include no-radius;
 }
 
@@ -43,4 +43,73 @@
   color: $title-color;
   margin-bottom: 18px;
   font-weight: 400;
+}
+
+@mixin service-header {
+  max-width: 913px;
+  text-align: center;
+  margin: 0 auto 60px auto;
+}
+
+@mixin service-description {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: $arial;
+  text-align: center;
+  color: $des-color;
+  max-width: 530px;
+  margin: 0px auto;
+}
+
+@mixin service-all-offer-btn {
+  padding: 25px 46px;
+  background: $anotherblack;
+  color: $white;
+  text-transform: uppercase;
+  @include no-radius;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  font-family: $arial;
+}
+
+@mixin service-card-offer-btn {
+  background: $amazon;
+  color: $white;
+  text-transform: uppercase;
+  padding: 19px 54px;
+  @include no-radius;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: $arial-med;
+  font-weight: 500;
+}
+
+@mixin service-card-body {
+  background: $gray;
+  padding: 22px 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin service-card-title {
+  font-family: 'georgiabold';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: $title-color;
+  margin-bottom: 6px;
+}
+@mixin service-card-desc {
+  margin: 0;
+  font-family: $arial;
+  font-size: 18px;
+  line-height: 26px;
+  color: $title-color;
+}
+
+@mixin zeromargin-zeropadding {
+  margin: 0;
+  padding: 0;
 }

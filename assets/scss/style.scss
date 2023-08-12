@@ -10,11 +10,9 @@ body {
   font-family: $arial;
 }
 ul {
-  margin: 0;
-  padding: 0;
+  @include zeromargin-zeropadding;
   li {
-    margin: 0;
-    padding: 0;
+    @include zeromargin-zeropadding;
   }
 }
 
@@ -59,21 +57,12 @@ img {
 .service-main {
   padding: 120px 0 100px 0;
   .service-header {
-    max-width: 913px;
-    text-align: center;
-
-    margin: 0 auto 60px auto;
+    @include service-header;
     h2.service-title {
       @include service-title;
     }
     p {
-      font-size: 24px;
-      line-height: 32px;
-      font-family: $arial;
-      text-align: center;
-      color: $des-color;
-      max-width: 530px;
-      margin: 0px auto;
+      @include service-description;
       a.amazonprime-link {
         color: $amazon;
         text-decoration: underline;
@@ -88,39 +77,18 @@ img {
       @include no-radius;
     }
     .card-body {
-      background: $gray;
-      padding: 22px 27px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+      @include service-card-body;
       .title-box {
         h3 {
-          font-family: 'georgiabold';
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 30px;
-          color: $title-color;
-          margin-bottom: 6px;
+          @include service-card-title;
         }
         p {
-          margin: 0;
-          font-family: $arial;
-          font-size: 18px;
-          line-height: 26px;
-          color: $title-color;
+          @include service-card-desc;
         }
       }
       .btn-box {
         a.offer-btn {
-          background: $amazon;
-          color: $white;
-          text-transform: uppercase;
-          padding: 19px 54px;
-          @include no-radius;
-          font-size: 16px;
-          line-height: 16px;
-          font-family: $arial-med;
-          font-weight: 500;
+          @include service-card-offer-btn;
         }
       }
     }
@@ -129,17 +97,53 @@ img {
     margin-top: 60px;
     text-align: center;
     a.all-offer-btn {
-      padding: 20px 46px;
-      background: $anotherblack;
-      color: $white;
-      text-transform: uppercase;
-      @include no-radius;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 16px;
-      font-family: $arial;
+      @include service-all-offer-btn;
     }
   }
 }
 
 // occasion section start from here
+.occasion-main {
+  padding: 140px 0 130px 0;
+  background: $pest;
+
+  .left-content-box {
+    max-width: 615px;
+    h3.occasion-title {
+      font-family: $georgia;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 72px;
+      color: $title-color;
+      margin-bottom: 18px;
+    }
+    p.occasion-desc {
+      font-family: $arial;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      color: $title-color;
+      margin-bottom: 60px;
+    }
+    a.occasion-btn {
+      @include no-radius;
+      color: $white;
+      padding: 25px 54px;
+      background: $anotherblack;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 700;
+      font-family: $arial;
+      text-transform: uppercase;
+    }
+  }
+  .right-image-box {
+    text-align: center;
+  }
+}
+
+// amazon prime section start from here 
+
+.amazonprime-main{
+
+}
