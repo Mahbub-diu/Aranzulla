@@ -5,4 +5,155 @@
   .homeslider-main .container {
     max-width: 1490px;
   }
+}
+@media (max-width: 320px) {
+  .homeslider-main {
+    padding: 40px 0;
+  }
+  .homeslider-main .left-content-box h1.slider-title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .homeslider-main .left-content-box p.slider-desc {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+  .homeslider-main .left-content-box a.offer-btn {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-weight: 500;
+  }
+  .service-main {
+    padding: 40px 0;
+  }
+  .service-main .service-header {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .service-main .service-header h2.service-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .service-main .service-header p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .service-main .card .card-body {
+    padding: 15px 17px;
+  }
+  .service-main .card .card-body .title-box {
+    flex-basis: 100%;
+  }
+  .service-main .card .card-body .title-box h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .service-main .card .card-body .title-box p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .service-main .card .card-body .btn-box {
+    flex-basis: 100%;
+  }
+  .service-main .card .card-body .btn-box a.offer-btn {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .service-main .show-all-offer {
+    margin-top: 20px;
+  }
+  .service-main .show-all-offer a.all-offer-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+  .occasion-main {
+    padding: 40px 0;
+  }
+  .occasion-main .left-content-box {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .occasion-main .left-content-box h3.occasion-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .occasion-main .left-content-box p.occasion-desc {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+  .occasion-main .left-content-box a.occasion-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+  .amazonprime-main {
+    padding: 40px 0;
+  }
+  .amazonprime-main .left-image-box {
+    margin-bottom: 40px;
+  }
+  .amazonprime-main .right-content-box {
+    max-width: 100%;
+  }
+  .amazonprime-main .right-content-box h3.amazon-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .amazonprime-main .right-content-box p.amazon-desc {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+  .amazonprime-main .right-content-box .primeday-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+  .footer-main {
+    padding: 40px 0;
+  }
+  .footer-main .footer-content-box p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+  .footer-main .footer-content-box p:nth-child(3) {
+    font-size: 14px;
+    margin: 0;
+  }
+  .footer-main .footer-content-box .social-navs {
+    margin-top: 40px;
+  }
+  .footer-main .footer-content-box .social-navs ul.nav {
+    margin-bottom: 0;
+  }
+  .footer-main .footer-content-box .social-navs ul.nav li.nav-item a.nav-link i {
+    font-size: 17px;
+  }
+  .copyright-main {
+    padding: 10px 0;
+  }
+  .copyright-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=responsive.css.map */

@@ -10,7 +10,182 @@
 }
 
 @media (max-width: 320px) {
+  .homeslider-main {
+    padding: 40px 0;
+    .left-content-box {
+      h1.slider-title {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      p.slider-desc {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+      a.offer-btn {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 20px;
+        margin-bottom: 40px;
+        width: 100%;
+        font-weight: 500;
+      }
+    }
+  }
+  // home slider part end here
+
+  // service section start from here
+  .service-main {
+    padding: 40px 0;
+    .service-header {
+      max-width: 100%;
+      margin-bottom: 40px;
+      h2.service-title {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+    .card {
+      .card-body {
+        padding: 15px 17px;
+        .title-box {
+          flex-basis: 100%;
+          h3 {
+            font-size: 18px;
+            line-height: 24px;
+          }
+          p {
+            font-size: 15px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .btn-box {
+          flex-basis: 100%;
+          a.offer-btn {
+            padding: 10px 20px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .show-all-offer {
+      margin-top: 20px;
+      a.all-offer-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        width: 100%;
+      }
+    }
+  }
+  //service section end here
+
+  //  occasion section start from here
+  .occasion-main {
+    padding: 40px 0;
+    .left-content-box {
+      max-width: 100%;
+      margin-bottom: 40px;
+      h3.occasion-title {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      p.occasion-desc {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+      a.occasion-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        width: 100%;
+      }
+    }
+  }
+  //  occasion section end here
+
+  // amazon prime section start from here
+  .amazonprime-main {
+    padding: 40px 0;
+    .left-image-box {
+      margin-bottom: 40px;
+    }
+    .right-content-box {
+      max-width: 100%;
+      h3.amazon-title {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      p.amazon-desc {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+      .primeday-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        width: 100%;
+      }
+    }
+  }
+
+  // amazon prime section end here
+
+  // footer section start from here
+  .footer-main {
+    padding: 40px 0;
+    .footer-content-box {
+      p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 18px;
+      }
+      p:nth-child(3) {
+        font-size: 14px;
+        margin: 0;
+      }
+      .social-navs {
+        margin-top: 40px;
+        ul.nav {
+          margin-bottom: 0;
+          li.nav-item {
+            a.nav-link {
+              i {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // copyright section start from here
+  .copyright-main {
+    padding: 10px 0;
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
 }
+
 @media (max-width: 360px) {
 }
 @media (min-width: 321px) and (max-width: 360px) {
