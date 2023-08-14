@@ -1,22 +1,26 @@
 @media (max-width: 320px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
+    text-align: center;
   }
-  .homeslider-main .left-content-box h1.slider-title {
-    font-size: 20px;
-    line-height: 1.5;
+  .homebanner-main .first-col {
+    order: 2 !important;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box h1.slider-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 14px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     width: 100%;
     font-weight: 500;
   }
@@ -28,8 +32,8 @@
     margin-bottom: 40px;
   }
   .service-main .service-header h2.service-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .service-main .service-header p {
     font-size: 15px;
@@ -76,16 +80,17 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .occasion-main .left-content-box p.occasion-desc {
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .occasion-main .left-content-box a.occasion-btn {
     padding: 10px 20px;
@@ -102,16 +107,17 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .amazonprime-main .right-content-box p.amazon-desc {
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .amazonprime-main .right-content-box .primeday-btn {
     padding: 10px 16px;
@@ -150,24 +156,30 @@
   }
 }
 @media (min-width: 321px) and (max-width: 360px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
-    font-size: 20px;
+  .homebanner-main .first-col {
+    order: 2;
+  }
+  .homebanner-main .left-content-box {
+    text-align: center;
+  }
+  .homebanner-main .left-content-box h1.slider-title {
+    font-size: 25px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 14px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     width: 100%;
     font-weight: 500;
   }
@@ -179,12 +191,12 @@
     margin-bottom: 40px;
   }
   .service-main .service-header h2.service-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .service-main .service-header p {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 25px;
   }
   .service-main .card .card-body {
     padding: 15px 17px;
@@ -227,16 +239,17 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .occasion-main .left-content-box p.occasion-desc {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .occasion-main .left-content-box a.occasion-btn {
     padding: 10px 20px;
@@ -253,16 +266,17 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .amazonprime-main .right-content-box p.amazon-desc {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .amazonprime-main .right-content-box .primeday-btn {
     padding: 10px 16px;
@@ -301,23 +315,30 @@
   }
 }
 @media (min-width: 361px) and (max-width: 375px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
-    font-size: 20px;
+  .homebanner-main .first-col {
+    order: 2;
+  }
+  .homebanner-main .left-content-box {
+    text-align: center;
+  }
+  .homebanner-main .left-content-box h1.slider-title {
+    font-size: 25px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 18px;
+    text-align: center;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 14px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     width: 100%;
     font-weight: 500;
   }
@@ -329,12 +350,12 @@
     margin-bottom: 40px;
   }
   .service-main .service-header h2.service-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .service-main .service-header p {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 25px;
   }
   .service-main .card .card-body {
     padding: 15px 17px;
@@ -377,16 +398,17 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .occasion-main .left-content-box p.occasion-desc {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .occasion-main .left-content-box a.occasion-btn {
     padding: 10px 20px;
@@ -403,16 +425,17 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .amazonprime-main .right-content-box p.amazon-desc {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 25px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .amazonprime-main .right-content-box .primeday-btn {
     padding: 10px 16px;
@@ -451,23 +474,29 @@
   }
 }
 @media (min-width: 376px) and (max-width: 414px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
-    font-size: 25px;
+  .homebanner-main .first-col {
+    order: 2;
+  }
+  .homebanner-main .left-content-box {
+    text-align: center;
+  }
+  .homebanner-main .left-content-box h1.slider-title {
+    font-size: 28px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 17px;
     line-height: 25px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     font-weight: 500;
   }
   .service-main {
@@ -478,12 +507,12 @@
     margin-bottom: 40px;
   }
   .service-main .service-header h2.service-title {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   }
   .service-main .service-header p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
   }
   .service-main .card .card-body {
     padding: 15px 17px;
@@ -525,14 +554,15 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   }
   .occasion-main .left-content-box p.occasion-desc {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 18px;
   }
   .occasion-main .left-content-box a.occasion-btn {
@@ -549,16 +579,17 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   }
   .amazonprime-main .right-content-box p.amazon-desc {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .amazonprime-main .right-content-box .primeday-btn {
     padding: 10px 20px;
@@ -596,23 +627,29 @@
   }
 }
 @media (min-width: 415px) and (max-width: 575px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .first-col {
+    order: 2;
+  }
+  .homebanner-main .left-content-box {
+    text-align: center;
+  }
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 35px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     font-weight: 500;
   }
   .service-main {
@@ -664,6 +701,7 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
     font-size: 30px;
@@ -688,6 +726,7 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
     font-size: 30px;
@@ -695,7 +734,7 @@
   }
   .amazonprime-main .right-content-box p.amazon-desc {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 18px;
   }
   .amazonprime-main .right-content-box .primeday-btn {
@@ -734,23 +773,29 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .first-col {
+    order: 2;
+  }
+  .homebanner-main .left-content-box {
+    text-align: center;
+  }
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 35px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     font-weight: 500;
   }
   .service-main {
@@ -802,6 +847,7 @@
   .occasion-main .left-content-box {
     max-width: 100%;
     margin-bottom: 40px;
+    text-align: center;
   }
   .occasion-main .left-content-box h3.occasion-title {
     font-size: 30px;
@@ -826,6 +872,7 @@
   }
   .amazonprime-main .right-content-box {
     max-width: 100%;
+    text-align: center;
   }
   .amazonprime-main .right-content-box h3.amazon-title {
     font-size: 30px;
@@ -872,19 +919,19 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 40px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 35px;
     line-height: 1.5;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
@@ -1010,19 +1057,19 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 60px 0;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 50px;
     line-height: 60px;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
@@ -1146,22 +1193,22 @@
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 60px 0;
   }
-  .homeslider-main .row {
+  .homebanner-main .row {
     align-items: center;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 50px;
     line-height: 60px;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
@@ -1286,22 +1333,22 @@
   }
 }
 @media (min-width: 1201px) and (max-width: 1365px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 60px 0;
   }
-  .homeslider-main .row {
+  .homebanner-main .row {
     align-items: center;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 50px;
     line-height: 60px;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
@@ -1426,22 +1473,22 @@
   }
 }
 @media (min-width: 1366px) and (max-width: 1600px) {
-  .homeslider-main {
+  .homebanner-main {
     padding: 60px 0;
   }
-  .homeslider-main .row {
+  .homebanner-main .row {
     align-items: center;
   }
-  .homeslider-main .left-content-box h1.slider-title {
+  .homebanner-main .left-content-box h1.slider-title {
     font-size: 50px;
     line-height: 60px;
   }
-  .homeslider-main .left-content-box p.slider-desc {
+  .homebanner-main .left-content-box p.slider-desc {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 18px;
   }
-  .homeslider-main .left-content-box a.offer-btn {
+  .homebanner-main .left-content-box a.offer-btn {
     font-size: 15px;
     line-height: 20px;
     padding: 10px 20px;
@@ -1572,7 +1619,7 @@
   .container {
     max-width: 1440px;
   }
-  .homeslider-main .container {
+  .homebanner-main .container {
     max-width: 1490px;
   }
 }/*# sourceMappingURL=responsive.css.map */

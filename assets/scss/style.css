@@ -52,11 +52,11 @@ h6 {
   color: #141414;
 }
 
-.homeslider-main {
+.homebanner-main {
   padding: 309px 0;
   background: linear-gradient(108.12deg, #222f3e 27.31%, #4895f7 89.31%);
 }
-.homeslider-main .left-content-box h1.slider-title {
+.homebanner-main .left-content-box h1.slider-title {
   font-size: 80px;
   line-height: 100px;
   font-weight: 400;
@@ -64,7 +64,7 @@ h6 {
   font-family: "georgiaregular";
   margin-bottom: 18px;
 }
-.homeslider-main .left-content-box p.slider-desc {
+.homebanner-main .left-content-box p.slider-desc {
   font-family: "Arial Regular";
   font-size: 24px;
   line-height: 32px;
@@ -72,7 +72,7 @@ h6 {
   color: #fff;
   max-width: 606px;
 }
-.homeslider-main .left-content-box a.offer-btn {
+.homebanner-main .left-content-box a.offer-btn {
   font-size: 16px;
   font-family: "Arial Medium";
   text-transform: uppercase;
@@ -87,7 +87,7 @@ h6 {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
-.homeslider-main .slider-image-box {
+.homebanner-main .slider-image-box {
   text-align: center;
 }
 
