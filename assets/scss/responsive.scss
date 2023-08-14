@@ -553,6 +553,21 @@
   // copyright section end here
 }
 @media (max-width: 414px) {
+  .homebanner-main {
+    padding: 60px 0 !important;
+    .slider-image-box {
+      margin-bottom: 40px;
+    }
+  }
+  .service-main {
+    .card {
+      .card-body {
+        .title-box {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 @media (min-width: 376px) and (max-width: 414px) {
   .homebanner-main {

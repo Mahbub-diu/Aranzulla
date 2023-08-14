@@ -473,6 +473,17 @@
     line-height: 20px;
   }
 }
+@media (max-width: 414px) {
+  .homebanner-main {
+    padding: 60px 0 !important;
+  }
+  .homebanner-main .slider-image-box {
+    margin-bottom: 40px;
+  }
+  .service-main .card .card-body .title-box {
+    text-align: center;
+  }
+}
 @media (min-width: 376px) and (max-width: 414px) {
   .homebanner-main {
     padding: 40px 0;
